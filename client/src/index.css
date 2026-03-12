@@ -1,0 +1,808 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  --color-popover: hsl(var(--popover));
+  --color-popover-foreground: hsl(var(--popover-foreground));
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+  --color-border: hsl(var(--border));
+  --color-primary-border: hsl(var(--primary-border));
+  --color-accent-border: hsl(var(--accent-border));
+  --color-card-border: hsl(var(--card-border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+  --color-chart-1: hsl(var(--chart-1));
+  --color-chart-2: hsl(var(--chart-2));
+  --color-chart-3: hsl(var(--chart-3));
+  --color-chart-4: hsl(var(--chart-4));
+  --color-chart-5: hsl(var(--chart-5));
+  --color-sidebar: hsl(var(--sidebar));
+  --color-sidebar-foreground: hsl(var(--sidebar-foreground));
+  --color-sidebar-primary: hsl(var(--sidebar-primary));
+  --color-sidebar-primary-foreground: hsl(var(--sidebar-primary-foreground));
+  --color-sidebar-accent: hsl(var(--sidebar-accent));
+  --color-sidebar-accent-foreground: hsl(var(--sidebar-accent-foreground));
+  --color-sidebar-border: hsl(var(--sidebar-border));
+  --color-sidebar-ring: hsl(var(--sidebar-ring));
+
+  --color-sidebar-primary-border: var(--sidebar-primary-border);
+  --color-sidebar-accent-border: var(--sidebar-accent-border);
+  --color-primary-border: var(--primary-border);
+  --color-secondary-border: var(--secondary-border);
+  --color-muted-border: var(--muted-border);
+  --color-accent-border: var(--accent-border);
+  --color-destructive-border: var(--destructive-border);
+}
+
+:root {
+  --button-outline: rgba(0, 0, 0, 0.1);
+  --badge-outline: rgba(0, 0, 0, 0.05);
+  --opaque-button-border-intensity: -8;
+  --elevate-1: rgba(0, 0, 0, 0.03);
+  --elevate-2: rgba(0, 0, 0, 0.08);
+
+  /* Art Direction: "Editorial Noir" */
+  --background: 240 18% 6%;
+  --foreground: 36 20% 96%;
+
+  --card: 240 18% 9%;
+  --card-foreground: 36 20% 96%;
+  --card-border: 240 12% 18%;
+
+  --popover: 240 18% 9%;
+  --popover-foreground: 36 20% 96%;
+  --popover-border: 240 12% 18%;
+
+  --border: 240 12% 18%;
+  --input: 240 10% 26%;
+  --ring: 40 68% 58%;
+
+  --primary: 40 70% 56%;
+  --primary-foreground: 240 18% 8%;
+
+  --secondary: 240 14% 14%;
+  --secondary-foreground: 36 20% 96%;
+
+  --muted: 240 12% 14%;
+  --muted-foreground: 34 10% 78%;
+
+  --accent: 292 40% 22%;
+  --accent-foreground: 36 20% 96%;
+
+  --destructive: 0 72% 52%;
+  --destructive-foreground: 0 0% 100%;
+
+  --chart-1: 40 70% 56%;
+  --chart-2: 292 40% 45%;
+  --chart-3: 210 40% 50%;
+  --chart-4: 140 35% 45%;
+  --chart-5: 0 72% 52%;
+
+  --font-sans: "Montserrat", "DM Sans", ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto,
+    Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  --font-serif: "Playfair Display", ui-serif, Georgia, Cambria, "Times New Roman", Times,
+    serif;
+  --font-killbill: "Anton", sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
+
+  --radius: 1rem;
+
+  --shadow-2xs: 0 1px 0 0 hsl(240 18% 2% / 0.25);
+  --shadow-xs: 0 1px 0 0 hsl(240 18% 2% / 0.25), 0 8px 24px -18px hsl(292 45% 30% / 0.35);
+  --shadow-sm: 0 1px 0 0 hsl(240 18% 2% / 0.25), 0 16px 44px -28px hsl(292 45% 30% / 0.45);
+  --shadow: 0 1px 0 0 hsl(240 18% 2% / 0.25), 0 22px 70px -44px hsl(40 70% 56% / 0.35);
+  --shadow-md: 0 1px 0 0 hsl(240 18% 2% / 0.25), 0 24px 86px -54px hsl(292 45% 30% / 0.55);
+  --shadow-lg: 0 1px 0 0 hsl(240 18% 2% / 0.25), 0 34px 120px -74px hsl(40 70% 56% / 0.32);
+  --shadow-xl: 0 1px 0 0 hsl(240 18% 2% / 0.25), 0 50px 160px -96px hsl(292 45% 30% / 0.45);
+  --shadow-2xl: 0 1px 0 0 hsl(240 18% 2% / 0.25), 0 70px 220px -120px hsl(40 70% 56% / 0.28);
+
+  --tracking-normal: 0em;
+  --spacing: 0.25rem;
+
+  --sidebar: 240 18% 8%;
+  --sidebar-foreground: 36 20% 96%;
+  --sidebar-border: 240 12% 18%;
+  --sidebar-primary: 40 70% 56%;
+  --sidebar-primary-foreground: 240 18% 8%;
+  --sidebar-accent: 292 40% 22%;
+  --sidebar-accent-foreground: 36 20% 96%;
+  --sidebar-ring: 40 68% 58%;
+
+  --sidebar-primary-border: hsl(var(--sidebar-primary));
+  --sidebar-primary-border: hsl(from hsl(var(--sidebar-primary)) h s
+      calc(l + var(--opaque-button-border-intensity)) / alpha);
+
+  --sidebar-accent-border: hsl(var(--sidebar-accent));
+  --sidebar-accent-border: hsl(from hsl(var(--sidebar-accent)) h s
+      calc(l + var(--opaque-button-border-intensity)) / alpha);
+
+  --primary-border: hsl(var(--primary));
+  --primary-border: hsl(from hsl(var(--primary)) h s
+      calc(l + var(--opaque-button-border-intensity)) / alpha);
+
+  --secondary-border: hsl(var(--secondary));
+  --secondary-border: hsl(from hsl(var(--secondary)) h s
+      calc(l + var(--opaque-button-border-intensity)) / alpha);
+
+  --muted-border: hsl(var(--muted));
+  --muted-border: hsl(from hsl(var(--muted)) h s
+      calc(l + var(--opaque-button-border-intensity)) / alpha);
+
+  --accent-border: hsl(var(--accent));
+  --accent-border: hsl(from hsl(var(--accent)) h s
+      calc(l + var(--opaque-button-border-intensity)) / alpha);
+
+  --destructive-border: hsl(var(--destructive));
+  --destructive-border: hsl(from hsl(var(--destructive)) h s
+      calc(l + var(--opaque-button-border-intensity)) / alpha);
+}
+
+.dark {
+  --button-outline: rgba(255, 255, 255, 0.1);
+  --badge-outline: rgba(255, 255, 255, 0.05);
+  --opaque-button-border-intensity: 9;
+  --elevate-1: rgba(255, 255, 255, 0.04);
+  --elevate-2: rgba(255, 255, 255, 0.09);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    color-scheme: dark;
+  }
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .font-killbill {
+    font-family: var(--font-killbill);
+  }
+
+  .text-shadow-hero {
+    text-shadow: 0 10px 40px rgba(0,0,0,.65), 0 2px 0 rgba(0,0,0,.35);
+  }
+
+  .text-shadow-subtle {
+    text-shadow: 0 2px 10px rgba(0,0,0,0.8);
+  }
+
+  @keyframes cinematic-spacing {
+    from {
+      letter-spacing: -0.05em;
+      filter: blur(2px);
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    to {
+      letter-spacing: 0.15em;
+      filter: blur(0);
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  .animate-cinematic-spacing {
+    animation: cinematic-spacing 5s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+  }
+
+  .shadow-glow-gold {
+    transition: all 0.3s ease;
+  }
+
+  .shadow-glow-gold:hover {
+    box-shadow: 0 0 25px hsl(var(--primary) / 0.6);
+    transform: scale(1.05);
+  }
+
+  .shadow-glow-gold:active {
+    transform: scale(0.95);
+  }
+
+  /*
+    Streaming links (vertical list)
+    - Icon: 32x32 square
+    - Label: "Watch on [Service]" with strong shadow (no clipping)
+    - Click target: tight to icon+label
+  */
+
+  .movie-streams {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.35rem;
+    padding-top: 0.25rem;
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+  }
+
+  .movie-streams__item {
+    display: block;
+    width: 100%;
+  }
+
+  .movie-stream {
+    display: inline-flex;
+    width: fit-content;
+    max-width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    padding: 0;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    position: relative;
+    overflow: visible;
+    background: transparent;
+    box-shadow: none;
+    filter: none;
+  }
+
+  .movie-stream__label {
+    display: inline-flex;
+    min-height: 32px;
+    align-items: center;
+  }
+
+  .movie-stream__labelClip {
+    display: inline-flex;
+    align-items: center;
+    min-height: 32px;
+  }
+
+  .movie-stream {
+    transition: transform 180ms cubic-bezier(0.2, 0.85, 0.2, 1), filter 180ms cubic-bezier(0.2, 0.85, 0.2, 1);
+    transform-origin: left center;
+  }
+
+  .movie-stream:hover {
+    transform: translateZ(0) scale(1.06);
+    filter: drop-shadow(0 10px 22px rgba(0,0,0,0.55));
+  }
+
+  .movie-stream:focus-visible {
+    outline: none;
+  }
+
+  .movie-stream__icon {
+    display: block;
+    height: 32px;
+    width: 32px;
+    min-width: 32px;
+    max-width: 32px;
+    max-height: 32px;
+    flex: 0 0 32px;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 7px;
+    image-rendering: -webkit-optimize-contrast;
+  }
+
+  .movie-stream__label {
+    display: inline-flex;
+    align-items: center;
+    min-height: 32px;
+    font-size: 11px;
+    line-height: 32px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: rgba(255,255,255,0.92);
+    white-space: nowrap;
+    max-width: 14rem;
+    background: transparent;
+    box-shadow: none;
+    filter: none;
+    position: relative;
+    overflow: visible;
+  }
+
+  /*
+    Shadow-safe wrapper:
+    We do NOT use overflow clipping here (it will crop the shadow).
+    Instead we give the label a little extra "paint" room on the right
+    while keeping the overall click target tight.
+  */
+  .movie-stream__labelClip {
+    display: block;
+    padding-right: 10px;
+    margin-right: -10px;
+  }
+
+  .movie-stream--prime {
+    padding: 0;
+    border-radius: 0;
+  }
+
+  .movie-stream__icon--prime {
+    height: 22px;
+    width: 22px;
+    max-height: 22px;
+    object-fit: cover;
+  }
+
+  input[type="search"]::-webkit-search-cancel-button {
+    @apply hidden;
+  }
+
+  [contenteditable][data-placeholder]:empty::before {
+    content: attr(data-placeholder);
+    color: hsl(var(--muted-foreground));
+    pointer-events: none;
+  }
+
+  .grain {
+    position: relative;
+  }
+  .grain::before {
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    inset: 0;
+    opacity: 0.09;
+    mix-blend-mode: overlay;
+    background-image:
+      radial-gradient(circle at 10% 10%, rgba(255, 255, 255, 0.06) 0 1px, transparent 1px),
+      radial-gradient(circle at 80% 40%, rgba(255, 255, 255, 0.04) 0 1px, transparent 1px),
+      radial-gradient(circle at 30% 90%, rgba(255, 255, 255, 0.05) 0 1px, transparent 1px),
+      radial-gradient(circle at 95% 90%, rgba(255, 255, 255, 0.035) 0 1px, transparent 1px);
+    background-size: 140px 140px;
+    filter: blur(0.2px);
+  }
+
+  .gradient-stroke {
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(92deg, hsl(40 70% 62%), hsl(292 45% 62%));
+  }
+
+  .soft-ring {
+    box-shadow:
+      0 0 0 1px hsl(240 12% 22% / 0.9),
+      0 0 0 6px hsl(292 45% 46% / 0.12),
+      0 18px 60px -40px hsl(40 70% 56% / 0.35);
+  }
+
+  /* Carousel (refactored) */
+  .movie-carousel {
+    perspective: 1100px;
+    perspective-origin: 50% 40%;
+    padding-top: 2.75rem;
+    padding-bottom: 4rem;
+  }
+
+  .movie-carousel__swiper {
+    overflow-x: hidden;
+    overflow-y: visible;
+    cursor: grab;
+    touch-action: pan-x pan-y pinch-zoom;
+    user-select: none;
+  }
+
+  .movie-carousel__swiper:active {
+    cursor: grabbing;
+  }
+
+  .movie-carousel__swiper .swiper-wrapper {
+    transition-timing-function: linear;
+  }
+
+  .movie-carousel__rows {
+    display: grid;
+    gap: 6px;
+  }
+
+  .movie-carousel__row {
+    overflow-x: hidden;
+    overflow-y: visible;
+    cursor: grab;
+    position: relative;
+  }
+
+  .movie-carousel__dragHit {
+    position: absolute;
+    inset: 0;
+    z-index: 5;
+    pointer-events: auto;
+    cursor: grab;
+    background: transparent;
+  }
+
+  .movie-carousel__row.is-row-dragging .movie-carousel__dragHit {
+    cursor: grabbing;
+  }
+
+  .movie-carousel__row.is-row-dragging {
+    perspective: none;
+  }
+
+  .movie-carousel__row.is-row-dragging .movie-carousel__track {
+    transform-style: flat;
+  }
+
+  .movie-carousel__row.is-row-dragging .dvd-case {
+    transform: none !important;
+    transition: none !important;
+  }
+
+  .movie-carousel__track {
+    position: relative;
+    z-index: 10;
+    display: block;
+    width: max-content;
+    padding: 6px 0;
+    transform-style: preserve-3d;
+  }
+
+  .movie-carousel__swiper .swiper-wrapper {
+    transition-timing-function: linear !important;
+    will-change: transform;
+    backface-visibility: hidden;
+  }
+
+  .movie-carousel__swiper .swiper-slide {
+    flex: 0 0 auto;
+    width: 200px;
+    min-width: 0;
+    position: relative;
+    padding: 6px;
+    margin-right: 0 !important;
+    z-index: 1;
+    contain: layout style;
+  }
+
+  .movie-carousel__swiper .swiper-slide:hover {
+    z-index: 100;
+  }
+
+  .movie-carousel__item {
+    width: 184px;
+  }
+
+  .movie-carousel__item .dvd-case {
+    width: 100%;
+    height: 276px;
+  }
+
+
+  .movie-carousel__item.is-active {
+    z-index: 50;
+  }
+
+  .movie-carousel__item.is-active .dvd-case {
+    transform: translateZ(120px) scale(1.04);
+    box-shadow:
+      0 44px 110px -70px rgba(0,0,0,0.95),
+      0 0 0 1px rgba(255,255,255,0.22) inset;
+  }
+
+  .movie-carousel__row.is-row-dragging .movie-carousel__item.is-active .dvd-case,
+  .movie-carousel__row.is-row-dragging .dvd-case:hover {
+    transform: none;
+  }
+
+  .dvd-case {
+    position: relative;
+    aspect-ratio: 2/3;
+    border-radius: 14px;
+    overflow: visible;
+    background-color: hsl(240 18% 9%);
+    box-shadow:
+      0 1px 2px 0 rgba(0,0,0,0.5),
+      0 0 0 1px rgba(255,255,255,0.08) inset;
+    transform-origin: center center;
+    transition: transform 1.14s cubic-bezier(0.2, 0.85, 0.2, 1), box-shadow 1.14s cubic-bezier(0.2, 0.85, 0.2, 1);
+  }
+
+  .movie-card__clip {
+    position: absolute;
+    inset: 0;
+    border-radius: 14px;
+    overflow: hidden;
+    pointer-events: none;
+  }
+
+  .movie-card__clip .movie-card__poster {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .movie-card__clip .movie-card__posterShade {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0.2), rgba(0,0,0,0));
+    opacity: 0.8;
+  }
+
+  .movie-card__clip::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 14px;
+    background: linear-gradient(
+      105deg,
+      rgba(255,255,255,0) 0%,
+      rgba(255,255,255,0) 40%,
+      rgba(255,255,255,0.08) 45%,
+      rgba(255,255,255,0) 50%
+    );
+    opacity: 1;
+  }
+
+  .dvd-case.is-open-streaming .movie-card__clip::after {
+    opacity: 0;
+  }
+
+  /* content on top can overflow for shadows */
+  .movie-card__content {
+    position: absolute;
+    inset: 0;
+    pointer-events: auto;
+  }
+
+
+  .dvd-case:hover {
+    transform: translateZ(90px) scale(1.03);
+    box-shadow:
+      0 34px 90px -55px rgba(0,0,0,0.85),
+      0 0 0 1px rgba(255,255,255,0.2) inset;
+    z-index: 20;
+  }
+
+  /*
+    Text treatments
+    - metaText: title/year/streaming labels
+    - descText: description paragraph
+  */
+  .movie-card__metaText {
+    text-shadow:
+      -1px -1px 2px rgba(0,0,0,0.46),
+      0 -1px 2px rgba(0,0,0,0.46),
+      1px -1px 2px rgba(0,0,0,0.46),
+      -1px 0 2px rgba(0,0,0,0.46),
+      1px 0 2px rgba(0,0,0,0.46),
+      -1px 1px 2px rgba(0,0,0,0.46),
+      0 1px 2px rgba(0,0,0,0.46),
+      1px 1px 2px rgba(0,0,0,0.46),
+      -2px -2px 6px rgba(0,0,0,0.34),
+      0 -2px 6px rgba(0,0,0,0.34),
+      2px -2px 6px rgba(0,0,0,0.34),
+      -2px 0 6px rgba(0,0,0,0.34),
+      2px 0 6px rgba(0,0,0,0.34),
+      -2px 2px 6px rgba(0,0,0,0.34),
+      0 2px 6px rgba(0,0,0,0.34),
+      2px 2px 6px rgba(0,0,0,0.34),
+      0 10px 24px rgba(0,0,0,0.38),
+      0 22px 52px rgba(0,0,0,0.22);
+  }
+
+
+  .movie-card__desc {
+    position: relative;
+    opacity: 0;
+    transform: translate3d(0, 8px, 0) scale(0.985);
+    transform-origin: top left;
+    will-change: transform, opacity;
+    transition:
+      transform 0.22s cubic-bezier(0.2, 0.85, 0.2, 1),
+      opacity 0.22s cubic-bezier(0.2, 0.85, 0.2, 1);
+  }
+
+  /*
+    Click hint cursor layering
+    - The drag cursor was coming from underlying draggable surface.
+    - This wrapper is the (non-interactive) overlay that *can* paint its own cursor.
+      It still allows click-through via pointer-events: none.
+  */
+  .movie-card__clickHintWrap {
+    position: absolute;
+    left: 50%;
+    bottom: 12px;
+    transform: translate3d(-50%, 0, 0);
+    z-index: 30;
+    opacity: 0;
+    cursor: pointer;
+    transition:
+      opacity 0.16s cubic-bezier(0.25, 0.8, 0.25, 1),
+      transform 0.16s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+
+  .movie-card__clickHintWrap--outer {
+    bottom: 12px;
+  }
+
+  .movie-card__clickHintButton {
+    pointer-events: auto;
+    cursor: pointer !important;
+    display: grid;
+    place-items: center;
+    width: 42px;
+    height: 26px;
+    border-radius: 999px;
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    outline: none;
+  }
+
+  .movie-card__clickHintButton:focus-visible {
+    box-shadow: 0 0 0 2px hsl(var(--primary) / 0.55);
+  }
+
+  /* When swapping faces, make the chevron leave with the old content */
+  .movie-card__clickHintWrap[data-switching="true"] {
+    opacity: 0;
+  }
+
+  /* When the new face is in, chevron re-enters cleanly */
+  .movie-carousel__item.is-active .movie-card__clickHintWrap[data-switching="false"] {
+    opacity: 1;
+    transform: translate3d(-50%, 0, 0);
+  }
+
+  .movie-card__clickHintIcon {
+    width: 18px;
+    height: 18px;
+    stroke-width: 2.25;
+    color: rgba(255,255,255,0.92);
+    filter: drop-shadow(0 2px 6px rgba(0,0,0,0.75));
+    animation: movie-clickHint-bob 1.55s ease-in-out infinite;
+  }
+
+  /* Only show when card is active (not just hover)
+     IMPORTANT: keep this from overriding the face-swap hide state */
+  .movie-carousel__item.is-active .movie-card__clickHintWrap {
+    opacity: 1;
+    transform: translate3d(-50%, 0, 0);
+  }
+
+  .movie-carousel__item.is-active .movie-card__clickHintWrap[data-switching="true"] {
+    opacity: 0;
+  }
+
+
+  @keyframes movie-clickHint-bob {
+    0%, 100% {
+      transform: translateY(0);
+      opacity: 0.92;
+    }
+    50% {
+      transform: translateY(3px);
+      opacity: 0.72;
+    }
+  }
+
+  .movie-card__descText {
+    text-shadow:
+      0 1px 1px rgba(0,0,0,0.85),
+      0 2px 2px rgba(0,0,0,0.80),
+      0 3px 3px rgba(0,0,0,0.76),
+      0 4px 4px rgba(0,0,0,0.72),
+      0 6px 6px rgba(0,0,0,0.66),
+      0 8px 8px rgba(0,0,0,0.60),
+      0 10px 10px rgba(0,0,0,0.54),
+      0 14px 14px rgba(0,0,0,0.48),
+      0 18px 18px rgba(0,0,0,0.42),
+      0 24px 24px rgba(0,0,0,0.36),
+      0 32px 32px rgba(0,0,0,0.30),
+      0 44px 44px rgba(0,0,0,0.24);
+  }
+
+  /* Swap animation: no blur (perf), just drop+fade out, then content swaps and pops back via existing hover reveal */
+  .movie-card__desc.is-face-switching {
+    opacity: 0;
+    transition: opacity 0.16s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+
+  .movie-card__face {
+    will-change: transform, opacity;
+  }
+
+  /*
+    Streaming panel rendering fix:
+    The DVD-case glare overlay (dvd-case::after) sits above all content.
+    It can visually read like a gradient "box" behind text.
+    We disable it while the streaming panel is open.
+  */
+
+  .movie-card__face--desc {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) scale(1);
+    transition:
+      transform 0.16s cubic-bezier(0.25, 0.8, 0.25, 1),
+      opacity 0.16s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+
+  .movie-card__face--link {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transform: translateY(20px);
+    pointer-events: none;
+    transition:
+      transform 0.28s cubic-bezier(0.2, 0.85, 0.2, 1),
+      opacity 0.22s cubic-bezier(0.2, 0.85, 0.2, 1);
+  }
+
+  .movie-card__face--link.is-stream-visible {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+
+  .movie-card__face.is-face-switching {
+    opacity: 0;
+  }
+
+  .dvd-case:hover .movie-card__desc,
+  .movie-carousel__item.is-active .movie-card__desc {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+
+  .movie-carousel__item.is-active .dvd-case:hover {
+    transform: translateZ(120px) scale(1.04);
+  }
+
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  @keyframes marquee-reverse {
+    0% {
+      transform: translateX(-50%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  .animate-marquee {
+    will-change: transform;
+  }
+
+  .animate-marquee-reverse {
+    will-change: transform;
+  }
+
+}

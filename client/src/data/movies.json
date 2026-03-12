@@ -1,0 +1,650 @@
+{
+  "streamingMeta": {
+    "PRIME": {
+      "name": "Watch on Prime",
+      "icon": "/streaming/watch-on-prime.png"
+    },
+    "PLEX": {
+      "name": "Watch on Plex",
+      "icon": "/streaming/plex.png"
+    },
+    "TUBI": {
+      "name": "Watch on Tubi",
+      "icon": "/streaming/tubi.png"
+    },
+    "PLUTO": {
+      "name": "Watch on Pluto TV",
+      "icon": "/streaming/pluto-tv.png"
+    },
+    "APPLE_TV": {
+      "name": "Watch on Apple TV",
+      "icon": "/streaming/apple-tv.png"
+    },
+    "NETFLIX": {
+      "name": "Watch on Netflix",
+      "icon": "/streaming/netflix.png"
+    },
+    "AMC_PLUS": {
+      "name": "Watch on AMC+",
+      "icon": "/streaming/amc-plus.png"
+    },
+    "IMDB": {
+      "name": "View on IMDb",
+      "icon": "/streaming/imdb.png"
+    }
+  },
+  "movies": [
+    {
+      "title": "Range 15",
+      "year": "2016",
+      "thumbnailSrc": "/src/assets/legacy/gunheadshot.jpg",
+      "description": "When the world drops dead overnight, a hard-living crew wakes up to a brand-new rulebook: survive, improvise, and never go quietly. With the undead crawling out of every shadow and a last-ditch rendezvous point on the map, they blast through chaos with grit and gallows humor. Welcome to the end times\u2014population: anyone dumb enough to still be standing.",
+      "link": "https://www.imdb.com/title/tt4687276/",
+      "link_text": "View on IMDb",
+      "link_icon": "IMDB",
+      "streaming_links": [
+        {
+          "service": "PRIME",
+          "url": "https://www.primevideo.com/detail/Range-15/0OWQCH0AJ27IQJ1CHGNE2SHLFA"
+        },
+        {
+          "service": "PLUTO",
+          "url": "https://pluto.tv/"
+        },
+        {
+          "service": "TUBI",
+          "url": "https://tubitv.com/"
+        },
+        {
+          "service": "PLEX",
+          "url": "https://watch.plex.tv/"
+        }
+      ],
+      "tmdbPosterPath": "/5bnV3UBCoU8kikdg3gy2ys9GijJ.jpg",
+      "trailerUrl": "https://www.youtube.com/watch?v=OHADCwz1X7E"
+    },
+    {
+      "title": "Check Point",
+      "year": "2017",
+      "thumbnailSrc": "/src/assets/legacy/20131223-185555.jpg",
+      "description": "A stranded outsider stumbles into a sleepy town\u2014and straight into a conspiracy that doesn\u2019t want witnesses. As rumors turn to gunfire and friends turn into targets, one determined woman becomes the difference between a cover-up and the truth. It\u2019s a pressure-cooker thriller where every road leads to a checkpoint\u2026 and not everyone gets through.",
+      "link": "https://www.imdb.com/title/tt4519400/",
+      "link_text": "IMDb listing",
+      "link_icon": "IMDB",
+      "streaming_links": [
+        {
+          "service": "PRIME",
+          "url": "https://www.primevideo.com/detail/Check-Point/0HX38Z69V7SQ4LC9P8HSCBVDU2"
+        },
+        {
+          "service": "PLUTO",
+          "url": "https://pluto.tv/"
+        },
+        {
+          "service": "TUBI",
+          "url": "https://tubitv.com/"
+        },
+        {
+          "service": "PLEX",
+          "url": "https://watch.plex.tv/"
+        }
+      ],
+      "tmdbPosterPath": "/wVeCqZYoAq8SK0CtDxERo2Ze9co.jpg",
+      "trailerUrl": "https://www.youtube.com/watch?v=GtsE7JsQwOY"
+    },
+    {
+      "title": "You Can't Have It",
+      "year": "2017",
+      "thumbnailSrc": "/src/assets/legacy/butterflyqueen.jpg",
+      "description": "A seductive stranger, a picture-perfect life, and a secret that doesn\u2019t stay buried. When obsession moves in and boundaries vanish, desire twists into danger\u2014and the cost of saying \u201cno\u201d keeps rising. In this slick, modern suspense tale, love is a trap\u2026 and someone always pays for what they want.",
+      "link": "https://www.imdb.com/title/tt3295354/",
+      "link_text": "IMDb page",
+      "link_icon": "IMDB",
+      "streaming_links": [
+        {
+          "service": "PRIME",
+          "url": "https://www.primevideo.com/detail/You-Cant-Have-It/0NDANB2OE29MW4FCHHCRBEXU9Z"
+        },
+        {
+          "service": "TUBI",
+          "url": "https://tubitv.com/"
+        },
+        {
+          "service": "PLEX",
+          "url": "https://watch.plex.tv/movie/you-cant-have-it"
+        }
+      ],
+      "tmdbPosterPath": "/rEvIRFEzAbvu8Zhm1wdPrriyIFC.jpg",
+      "trailerUrl": "https://www.youtube.com/watch?v=um5PlRBLckA"
+    },
+    {
+      "title": "Going to America",
+      "year": "2014",
+      "thumbnailSrc": "/src/assets/legacy/alicebigger.jpg",
+      "description": "Chasing a fresh start, a dreamer hits the road with big hopes and bigger expectations\u2014only to discover the journey is the real test. Between culture shocks, close calls, and the kind of strangers you only meet in movies, ambition collides with reality at every turn. A wild ride about reinvention, resilience, and the price of wanting more.",
+      "link": "https://www.imdb.com/title/tt3498590/",
+      "link_text": "IMDb listing",
+      "tmdbPosterPath": "/jcZ8aElv85uv4FVhfu1unMHC6j3.jpg",
+      "trailerUrl": "https://www.youtube.com/watch?v=xcRc0pfaTzk"
+    },
+    {
+      "title": "Samurai Cop 2",
+      "year": "2015",
+      "thumbnailSrc": "/src/assets/legacy/demonqueenmain.jpg",
+      "description": "The legend is back\u2014and so are the lunatics. When a new wave of crime hits the streets, a renegade cop with a killer instinct and a flair for the dramatic returns to finish what he started. It\u2019s neon-soaked mayhem, outrageous fights, and revenge served with a straight face\u2026 and a very sharp edge.",
+      "link": "https://www.imdb.com/title/tt3398252/",
+      "link_text": "See credits on IMDb",
+      "streaming_links": [
+        {
+          "service": "PRIME",
+          "url": "https://www.primevideo.com/detail/Samurai-Cop-2-Deadly-Vengeance/0JAI83QTJL2I3OURAE61SDM8W8"
+        },
+        {
+          "service": "PLUTO",
+          "url": "https://pluto.tv/"
+        },
+        {
+          "service": "TUBI",
+          "url": "https://tubitv.com/movies/324875/samurai-cop-2-deadly-vengeance"
+        },
+        {
+          "service": "PLEX",
+          "url": "https://watch.plex.tv/movie/samurai-cop-2-deadly-vengeance"
+        }
+      ],
+      "tmdbPosterPath": "/yYoWUAzGe5PH8E3lltUiM1LzTD0.jpg",
+      "trailerUrl": "https://www.youtube.com/watch?v=996zhYei9Xw"
+    },
+    {
+      "title": "Non-Stop to Comic Con",
+      "year": "2016",
+      "thumbnailSrc": "/src/assets/legacy/pinkhair.jpg",
+      "description": "One trip. Zero chill. A band of misfits barrels toward the biggest fan event of the year\u2014only to face breakdowns, blowups, and the kind of chaos you can\u2019t cosplay your way out of. Packed with convention energy and road-trip disasters, it\u2019s a backstage pass to friendship, fandom, and surviving the ride.",
+      "link": "https://www.imdb.com/title/tt4079864/",
+      "link_text": "IMDb page",
+      "tmdbPosterPath": "/lTkJM8e61FnXfLdDEd9EmuJZm72.jpg"
+    },
+    {
+      "title": "A Blood Story",
+      "year": "2015",
+      "thumbnailSrc": "/src/assets/legacy/crazypinkfinale.jpg",
+      "description": "In a city where secrets drip from every alley, a single night of violence ignites a chain reaction of betrayal. As bodies pile up and loyalties turn inside out, survival becomes a game of timing\u2014and trust becomes lethal. A pulpy, midnight-thriller descent into the kind of blood debt that never stays paid.",
+      "link": "https://www.imdb.com/title/tt2497768/",
+      "link_text": "IMDb listing",
+      "streaming_links": [
+        {
+          "service": "PRIME",
+          "url": "https://www.amazon.com/Blood-Story-Robert-ZDar/dp/B00Z9NWQ1Y"
+        },
+        {
+          "service": "APPLE_TV",
+          "url": "https://tv.apple.com/us/movie/a-blood-story/umc.cmc.1mzij7ftt6drke2zd7ndgdqq7"
+        },
+        {
+          "service": "PLEX",
+          "url": "https://watch.plex.tv/movie/a-blood-story"
+        }
+      ],
+      "tmdbPosterPath": "/5tNZTAhIjMryYVZZf7KSIapFMbC.jpg"
+    },
+    {
+      "title": "The Coed and the Zombie Stoner",
+      "year": "2014",
+      "thumbnailSrc": "/src/assets/legacy/partyrockin1.jpg",
+      "description": "Finals week gets a lot harder when the campus starts eating itself. A fearless coed and her unlikely sidekick\u2014a perpetually baked survivor with surprisingly good instincts\u2014fight their way through dorm-room doom and undead party crashers. It\u2019s horror, hilarity, and high-stakes survival\u2026 with extra brains on the side.",
+      "link": "https://www.imdb.com/title/tt3608654/",
+      "link_text": "View on IMDb",
+      "streaming_links": [
+        {
+          "service": "NETFLIX",
+          "url": "https://www.netflix.com/title/80004598"
+        },
+        {
+          "service": "PRIME",
+          "url": "https://www.primevideo.com/detail/The-Coed-And-The-Zombie-Stoner/0OJX2M4MJWNW3G9N5M1UX78IE6"
+        },
+        {
+          "service": "PLUTO",
+          "url": "https://pluto.tv/"
+        },
+        {
+          "service": "PLEX",
+          "url": "https://watch.plex.tv/movie/the-coed-and-the-zombie-stoner"
+        }
+      ],
+      "tmdbPosterPath": "/rPuhlG7h6bovUnSs9ce3yxjvkgw.jpg",
+      "trailerUrl": "https://www.youtube.com/watch?v=kwONtUsh42c"
+    },
+    {
+      "title": "Chicks Dig Gay Guys",
+      "year": "2014",
+      "thumbnailSrc": "/src/assets/legacy/butterflyqueen.jpg",
+      "description": "Behind the velvet rope of nightlife, friendships form fast\u2014and get tested even faster. When personal dramas collide with big dreams and bigger personalities, the party becomes a battlefield of loyalty, love, and unapologetic truth. A sharp, cheeky ride through found family and fabulous complications.",
+      "link": "https://www.imdb.com/title/tt1886680/",
+      "link_text": "IMDb page",
+      "tmdbPosterPath": "/64scbrEQMgamPaF2SKnUhT6rsol.jpg",
+      "trailerUrl": "https://www.youtube.com/watch?v=-PevYUca1xw"
+    },
+    {
+      "title": "5th Passenger",
+      "year": "2017",
+      "thumbnailSrc": "/src/assets/legacy/demonqueenmain.jpg",
+      "description": "Deep in space, oxygen is low, nerves are frayed, and the mission is already broken. When a trapped crew realizes someone\u2014or something\u2014doesn\u2019t belong on board, paranoia becomes as deadly as the void outside. Claustrophobic, tense, and razor-tight, this sci\u2011fi thriller proves the worst enemy is the one you can\u2019t eject.",
+      "link": "https://www.imdb.com/title/tt3165632/",
+      "link_text": "IMDb listing",
+      "tmdbPosterPath": "/f8hfZCD2fSsz6LE6FA5uk5mMv11.jpg",
+      "trailerUrl": "https://www.youtube.com/watch?v=hcYX_zQaWdk"
+    },
+    {
+      "title": "Our Way",
+      "year": "2014",
+      "thumbnailSrc": "/src/assets/legacy/gunheadshot.jpg",
+      "description": "Two lives collide at the edge of change, where the past won\u2019t let go and the future demands courage. As choices narrow and stakes rise, a determined woman refuses to be written into someone else\u2019s ending. A tough, emotional story about taking the long road, holding the line, and doing it\u2014no matter what\u2014your way.",
+      "link": "https://www.imdb.com/name/nm4535518/",
+      "link_text": "Mindy on IMDb",
+      "tmdbPosterPath": "/4zzZKxIi9UNaCmhnO8FzKKUsjjU.jpg"
+    },
+    {
+      "title": "Sister Code",
+      "year": "2015",
+      "thumbnailSrc": "/src/assets/legacy/pinkhair.jpg",
+      "description": "Sisters don\u2019t just share blood\u2014they share history, secrets, and the kind of love that can either save you or destroy you. When old wounds reopen and new threats step in, the bond gets tested under pressure. A fast, fierce drama about loyalty, survival, and the rules you break for family.",
+      "link": "https://www.imdb.com/title/tt3912040/",
+      "link_text": "IMDb page",
+      "tmdbPosterPath": "/xPbpgD995s3yxVjFC2BZy2SqDgZ.jpg"
+    },
+    {
+      "title": "Alpha House",
+      "year": "2014",
+      "thumbnailSrc": "/src/assets/legacy/alicebigger.jpg",
+      "description": "Welcome to the house where the rules are made up and the consequences are real. When a group of young women discovers the \u201cperfect\u201d place comes with an ugly underbelly, the party turns into a fight for control. Equal parts glossy and savage, it\u2019s a thriller about power, pressure, and what happens when the mask slips.",
+      "link": "https://www.imdb.com/title/tt3307774/",
+      "link_text": "IMDb listing",
+      "tmdbPosterPath": "/s00AwtusVVG8lpA3fquKaE63NWW.jpg",
+      "trailerUrl": "https://www.youtube.com/watch?v=5dHIVO0mcz8"
+    },
+    {
+      "title": "V/H/S/2",
+      "year": "2013",
+      "thumbnailSrc": "/src/assets/legacy/crazypinkfinale.jpg",
+      "description": "A stack of tapes. A missing person. And footage no one was meant to see. Each recording pulls you deeper into a nightmare of urban legends, warped experiments, and things that move too fast in the dark. Hit play if you dare\u2014because once you\u2019ve watched, you can\u2019t unsee what\u2019s on the other side of the screen.",
+      "link": "https://www.imdb.com/title/tt2450186/",
+      "link_text": "View on IMDb",
+      "tmdbPosterPath": "/o4hcWsHaHaNQ9BBReOxLvYJNRhA.jpg",
+      "trailerUrl": "https://www.youtube.com/watch?v=8Rto5cyknzU"
+    },
+    {
+      "title": "Warfighter",
+      "year": "2018",
+      "thumbnailSrc": "/src/assets/legacy/partyrockin1.jpg",
+      "description": "The mission ends, but the battle doesn\u2019t. When elite operators return home carrying invisible scars, loyalty becomes the only compass in a world that no longer makes sense. Gritty and grounded, this modern war story explores brotherhood, sacrifice, and the cost of doing the job when the world sleeps.",
+      "link": "https://www.imdb.com/title/tt4524418/",
+      "link_text": "IMDb listing",
+      "streaming_links": [
+        {
+          "service": "PRIME",
+          "url": "https://www.primevideo.com/detail/American-Warfighter/0FBFFS0HF2W6CTC01AQAZ2N9VW"
+        },
+        {
+          "service": "APPLE_TV",
+          "url": "https://tv.apple.com/us/movie/american-warfighter/umc.cmc.51sddm0hd4kbtfgcztopmkh7p"
+        }
+      ],
+      "tmdbPosterPath": "/7h9pn5dDOYAkJ3DhttkcXIoWIux.jpg",
+      "trailerUrl": "https://www.youtube.com/watch?v=LxhMvO05JdU"
+    },
+    {
+      "title": "Abstraction",
+      "year": "2013",
+      "thumbnailSrc": "/src/assets/legacy/butterflyqueen.jpg",
+      "description": "In a world of curated realities and half-truths, one moment shatters the picture into sharp, dangerous pieces. As perception blurs and motives hide behind artful lies, a woman fights to separate what happened from what she\u2019s being told happened. A sleek psychological thriller where the truth is the most unstable thing in the room.",
+      "link": "https://www.imdb.com/title/tt2327191/",
+      "link_text": "IMDb page",
+      "streaming_links": [
+        {
+          "service": "PRIME",
+          "url": "https://www.primevideo.com/detail/Abstraction/0QSWJGUMLMQL80L7V2J4ZWXQG3"
+        },
+        {
+          "service": "TUBI",
+          "url": "https://tubitv.com/movies/496096/abstraction"
+        },
+        {
+          "service": "PLEX",
+          "url": "https://watch.plex.tv/movie/abstraction"
+        }
+      ],
+      "tmdbPosterPath": "/gLEk6g2eGWg4LRLP5w0E7fU7xWE.jpg",
+      "trailerUrl": "https://www.youtube.com/watch?v=L7aQYz3IXdE"
+    },
+    {
+      "title": "The Green Fairy",
+      "year": "2016",
+      "thumbnailSrc": "/src/assets/legacy/demonqueenmain.jpg",
+      "description": "One taste is all it takes. When a night out turns into a fever dream, temptation becomes a doorway\u2014and something on the other side wants in. Drunk on mystery and drenched in neon, this dark tale spins seduction into superstition, where the \u201cgreen fairy\u201d doesn\u2019t grant wishes\u2026 it collects them.",
+      "link": "https://www.imdb.com/title/tt3103620/",
+      "link_text": "IMDb listing",
+      "streaming_links": [
+        {
+          "service": "PRIME",
+          "url": "https://www.primevideo.com/detail/The-Green-Fairy/0IMP32QZIWQ3D1KNEGDSN6XJXK"
+        },
+        {
+          "service": "TUBI",
+          "url": "https://tubitv.com/"
+        },
+        {
+          "service": "PLEX",
+          "url": "https://watch.plex.tv/"
+        }
+      ],
+      "tmdbPosterPath": "/iIJJvzwJCdkzbXrgR1hMYKRoJkT.jpg",
+      "trailerUrl": "https://www.youtube.com/watch?v=fIggG7ZvK_A"
+    },
+    {
+      "title": "The American Gandhi",
+      "year": "2016",
+      "thumbnailSrc": "/src/assets/legacy/gunheadshot.jpg",
+      "description": "In a country addicted to noise, one voice tries to cut through with conviction. When ideals clash with politics, and peace becomes an act of rebellion, the fight turns personal. A provocative drama about principle under fire\u2014where doing the right thing is the most dangerous move you can make.",
+      "link": "https://www.imdb.com/title/tt2460594/",
+      "link_text": "View on IMDb",
+      "streaming_links": [
+        {
+          "service": "PRIME",
+          "url": "https://www.amazon.com/American-Gandhi-James-Patrick-Stuart/dp/B07ZTVWVRV"
+        },
+        {
+          "service": "PLEX",
+          "url": "https://watch.plex.tv/movie/the-american-gandhi"
+        }
+      ],
+      "tmdbPosterPath": "/w7ZtgE1zRURMsbfNt9IB4K6cYQV.jpg"
+    },
+    {
+      "title": "The Bitch that Cried Wolf",
+      "year": "2014",
+      "thumbnailSrc": "/src/assets/posters/bitch-cried-wolf.png",
+      "description": "In a town powered by gossip, one woman\u2019s warning becomes everyone\u2019s favorite punchline\u2014until the threat is no longer a story. As suspicion spreads and the line between drama and danger disappears, survival means proving the truth before it\u2019s too late. A sharp, wicked thriller where the real monster might be the crowd.",
+      "link": "https://www.imdb.com/title/tt2883630/",
+      "link_text": "IMDb page"
+    },
+    {
+      "title": "Burying the Ex",
+      "year": "2014",
+      "thumbnailSrc": "/src/assets/legacy/pinkhair.jpg",
+      "description": "Breaking up is hard to do\u2014especially when your ex won\u2019t stay dead. A messy love triangle turns supernatural when the past literally claws its way back into the present. Romantic, ridiculous, and gloriously undead, it\u2019s a horror-comedy about closure, second chances\u2026 and not answering the door after midnight.",
+      "link": "https://www.imdb.com/title/tt3339674/",
+      "link_text": "IMDb listing",
+      "streaming_links": [
+        {
+          "service": "PRIME",
+          "url": "https://www.primevideo.com/detail/Burying-The-Ex/0OO6IFYZGBTCBYOJR72P8LLN8X"
+        },
+        {
+          "service": "AMC_PLUS",
+          "url": "https://www.amcplus.com/movies/burying-the-ex--1071585"
+        },
+        {
+          "service": "PLEX",
+          "url": "https://watch.plex.tv/movie/burying-the-ex"
+        }
+      ],
+      "tmdbPosterPath": "/kVE5JElUQVLL95GZCiQhLSTTA6I.jpg",
+      "trailerUrl": "https://www.youtube.com/watch?v=k3vuRYFCwjo"
+    },
+    {
+      "title": "Evil Bong 4:20",
+      "year": "2015",
+      "thumbnailSrc": "/src/assets/legacy/crazypinkfinale.jpg",
+      "description": "It\u2019s the kind of buzz you don\u2019t come down from. When a cursed bong returns to spread chaos, the highs get weirder, the kills get louder, and reality gets toasted beyond repair. Packed with stoner madness and creature-feature energy, this cult trip proves some smoke sessions end in screams.",
+      "link": "https://www.imdb.com/title/tt4817640/",
+      "link_text": "View on IMDb",
+      "streaming_links": [
+        {
+          "service": "PRIME",
+          "url": "https://www.primevideo.com/detail/Evil-Bong-420/0LGXVID6ZUMWI7V17DBSTVOYT8"
+        },
+        {
+          "service": "TUBI",
+          "url": "https://tubitv.com/movies/474419/evil-bong-420"
+        },
+        {
+          "service": "PLEX",
+          "url": "https://watch.plex.tv/movie/evil-bong-420"
+        }
+      ],
+      "tmdbPosterPath": "/8W2u9wFRtBcaezebHT0uLybuzV9.jpg"
+    },
+    {
+      "title": "Evil Bong: High 5",
+      "year": "2016",
+      "thumbnailSrc": "/src/assets/legacy/partyrockin1.jpg",
+      "description": "Just when you think it\u2019s safe to light up, the evil returns for another round. The crew faces fresh hallucinations, fresh horrors, and a wicked little artifact that turns party time into survival time. It\u2019s over-the-top, unapologetic, and proudly unhinged\u2014because in this universe, the bong always wins.",
+      "link": "https://www.imdb.com/title/tt4933472/",
+      "link_text": "IMDb page",
+      "streaming_links": [
+        {
+          "service": "PRIME",
+          "url": "https://www.primevideo.com/detail/Evil-Bong-High-5/0SGGN5WG644OI0ZA59CNNR5NFC"
+        },
+        {
+          "service": "TUBI",
+          "url": "https://tubitv.com/"
+        },
+        {
+          "service": "PLEX",
+          "url": "https://watch.plex.tv/movie/evil-bong-high-5"
+        }
+      ],
+      "tmdbPosterPath": "/6cFyFO38E4V8kIA8Ow652SB8dQN.jpg",
+      "trailerUrl": "https://www.youtube.com/watch?v=f7pKnWt7QRo"
+    },
+    {
+      "title": "Gingerdead Man vs. Evil Bong",
+      "year": "2013",
+      "thumbnailSrc": "/src/assets/legacy/demonqueenmain.jpg",
+      "description": "Two cursed icons enter. Only one gets the last laugh. When a homicidal cookie and a demonic bong collide, the showdown is baked in blood and drenched in smoke. It\u2019s a gloriously ridiculous monster mash where the only thing higher than the body count is the insanity.",
+      "link": "https://www.imdb.com/title/tt3234078/",
+      "link_text": "IMDb listing",
+      "streaming_links": [
+        {
+          "service": "PRIME",
+          "url": "https://www.primevideo.com/detail/Gingerdead-Man-vs-Evil-Bong/0GX78CRMYQXXRCB1QA8613R3AE"
+        },
+        {
+          "service": "TUBI",
+          "url": "https://tubitv.com/"
+        },
+        {
+          "service": "PLEX",
+          "url": "https://watch.plex.tv/movie/gingerdead-man-vs-evil-bong"
+        }
+      ],
+      "tmdbPosterPath": "/g5AefV3s6ojqbqC1Lh7vEAaBTf.jpg",
+      "trailerUrl": "https://www.youtube.com/watch?v=-eqxHsL7Y3g"
+    },
+    {
+      "title": "The Oatmeal Man",
+      "year": "2014",
+      "thumbnailSrc": "/src/assets/legacy/gunheadshot.jpg",
+      "description": "Breakfast just got brutal. When a creepy local legend steps out of the shadows, a simple routine turns into a full-blown nightmare. As fear spreads and bodies drop, a woman must outsmart something that\u2019s been watching for a long time. Strange, sinister, and wildly unpredictable\u2014this is comfort food turned killer.",
+      "link": "https://www.imdb.com/title/tt1641640/",
+      "link_text": "View on IMDb",
+      "streaming_links": [
+        {
+          "service": "PRIME",
+          "url": "https://www.primevideo.com/detail/The-Oatmeal-Man/0KRD5PLY6Z925WE7RB7GOYC0XJ"
+        },
+        {
+          "service": "PLEX",
+          "url": "https://watch.plex.tv/movie/the-oatmeal-man"
+        }
+      ],
+      "tmdbPosterPath": "/ooK3NR4WyJjLKvlzP0twIKRjZhK.jpg"
+    },
+    {
+      "title": "Despair Sessions",
+      "year": "2015",
+      "thumbnailSrc": "/src/assets/legacy/alicebigger.jpg",
+      "description": "A group therapy experiment promises healing\u2014but what it really delivers is exposure. When secrets surface and pressure spikes, the line between self-improvement and self-destruction snaps. Dark, tense, and painfully honest, it\u2019s a descent into what happens when you can\u2019t escape your own mind\u2014or each other.",
+      "link": "https://www.imdb.com/title/tt3111336/",
+      "link_text": "IMDb listing",
+      "tmdbPosterPath": "/qiLSmr7W6HQS3jmkQmJCek5uqSj.jpg"
+    },
+    {
+      "title": "After School Massacre",
+      "year": "2014",
+      "thumbnailSrc": "/src/assets/legacy/pinkhair.jpg",
+      "description": "Detention. Locked doors. And a killer who doesn\u2019t believe in extra credit. What starts as a harmless after-school hang turns into a frantic fight for survival as the halls become a hunting ground. A sharp slasher throwback with modern bite\u2014because the last lesson of the day is: run.",
+      "link": "https://www.imdb.com/title/tt2553444/",
+      "link_text": "IMDb page",
+      "streaming_links": [
+        {
+          "service": "TUBI",
+          "url": "https://tubitv.com/"
+        },
+        {
+          "service": "PLUTO",
+          "url": "https://pluto.tv/"
+        },
+        {
+          "service": "PLEX",
+          "url": "https://watch.plex.tv/movie/after-school-massacre"
+        },
+        {
+          "service": "PRIME",
+          "url": "https://www.primevideo.com/detail/After-School-Massacre/0I9WBKTAPFP032TV6AOMEDYCIA"
+        }
+      ],
+      "tmdbPosterPath": "/ywyHXnFVC8neWKWqtPa7SQLW6Rq.jpg"
+    },
+    {
+      "title": "Misirlou",
+      "year": "2014",
+      "thumbnailSrc": "/src/assets/legacy/crazypinkfinale.jpg",
+      "tmdbPosterPath": "/eoiC3tcLQ34zVbxcyF5zsMMPV4d.jpg",
+      "description": "One melody. Too many memories. When a haunting tune pulls a woman back into a past she tried to forget, romance and danger spiral together like smoke. Seductive and atmospheric, this noir-tinged tale turns longing into a weapon\u2014and proves some songs don\u2019t fade\u2026 they follow.",
+      "link": "https://www.imdb.com/title/tt2273648/",
+      "link_text": "IMDb listing (Adrenochrome)",
+      "streaming_links": [
+        {
+          "service": "PRIME",
+          "url": "https://www.primevideo.com/detail/Adrenochrome/0SC82B9B0CLOT6U1C8CZJWR6HP"
+        },
+        {
+          "service": "APPLE_TV",
+          "url": "https://tv.apple.com/us/movie/adrenochrome/umc.cmc.3s0zuka42ic6kxw2n6y00tgu"
+        },
+        {
+          "service": "PLEX",
+          "url": "https://watch.plex.tv/en-GB/movie/adrenochrome"
+        }
+      ],
+      "trailerUrl": "https://www.youtube.com/watch?v=9YL9Njk82iY"
+    },
+    {
+      "title": "Less Than a Whisper",
+      "year": "2015",
+      "thumbnailSrc": "/src/assets/posters/less-than-a-whisper.png",
+      "description": "Some truths are spoken softly\u2014because saying them out loud is deadly. When a woman uncovers something she was never meant to find, she\u2019s forced into a world of quiet threats and loud consequences. A tense, intimate thriller where survival depends on staying one step ahead\u2026 and keeping your voice down.",
+      "link": "https://www.imdb.com/title/tt2402673/",
+      "link_text": "View on IMDb",
+      "streaming_links": [
+        {
+          "service": "TUBI",
+          "url": "https://tubitv.com/movies/651861/less-than-a-whisper"
+        },
+        {
+          "service": "PRIME",
+          "url": "https://www.amazon.com/Less-than-Whisper-Sonia-Monroy/dp/B08GNX7L1P"
+        }
+      ]
+    },
+    {
+      "title": "Casting Couch",
+      "year": "2013",
+      "thumbnailSrc": "/src/assets/legacy/butterflyqueen.jpg",
+      "description": "In a town built on illusions, the audition room is where dreams get made\u2014and where they get broken. When ambition meets manipulation, a rising performer has to decide what she\u2019ll sacrifice and what she\u2019ll fight for. A sharp, dramatic look at power plays, high stakes, and reclaiming the script.",
+      "link": "https://www.imdb.com/title/tt2313189/",
+      "link_text": "IMDb listing",
+      "tmdbPosterPath": "/4JJfxhmf7faYgHqOBFLVO7sPVB3.jpg",
+      "trailerUrl": "https://www.youtube.com/watch?v=NC1oRx5hr5Q"
+    },
+    {
+      "title": "Road Hard",
+      "year": "2015",
+      "thumbnailSrc": "/src/assets/legacy/demonqueenmain.jpg",
+      "description": "Life on the road is loud, lonely, and always one bad decision away from disaster. When a burnt-out comic hits the circuit for a comeback, the laughs come with bruises\u2014and the lessons come at last call. A raw, funny ride through faded fame, fresh failures, and the grit it takes to keep going.",
+      "link": "https://www.imdb.com/title/tt3110770/",
+      "link_text": "View on IMDb",
+      "streaming_links": [
+        {
+          "service": "TUBI",
+          "url": "https://tubitv.com/movies/458333/road-hard"
+        },
+        {
+          "service": "PLEX",
+          "url": "https://watch.plex.tv/movie/road-hard"
+        },
+        {
+          "service": "PRIME",
+          "url": "https://www.amazon.com/Road-Hard-Adam-Carolla/dp/B00U2TQKGM"
+        },
+        {
+          "service": "APPLE_TV",
+          "url": "https://tv.apple.com/us/movie/road-hard/"
+        }
+      ],
+      "tmdbPosterPath": "/aClpHJtwN2I6DmCZpu54LUVoQJK.jpg"
+    },
+    {
+      "title": "7 Faces of Jack the Ripper",
+      "year": "2014",
+      "thumbnailSrc": "/src/assets/legacy/gunheadshot.jpg",
+      "description": "The legend is back\u2014wearing a new face every time. When a string of brutal killings echoes the past, a woman is pulled into a maze of clues, disguises, and fear. Each suspect is a mask, each alley a trap, and the truth cuts deeper than any blade. Classic mystery vibes with a blood-soaked twist.",
+      "link": "https://www.imdb.com/title/tt2847592/",
+      "link_text": "IMDb listing",
+      "tmdbPosterPath": "/ajbAGroyYxiujsarVJxNMT1R478.jpg"
+    },
+    {
+      "title": "Babes Behind Bars",
+      "year": "2013",
+      "thumbnailSrc": "/src/assets/legacy/alicebigger.jpg",
+      "description": "Locked up, fired up, and done playing nice. Inside a prison where the rules are cruel and the power is corrupt, a crew of women fights back with brains, bravado, and grit. It\u2019s pulp, rebellion, and razor-wire attitude\u2014because freedom isn\u2019t given\u2026 it\u2019s taken.",
+      "link": "https://www.imdb.com/title/tt3427556/",
+      "link_text": "IMDb listing",
+      "tmdbPosterPath": "/lHVNQXzGiB1js0a8I3a9FphrgUh.jpg"
+    },
+    {
+      "title": "King of the Nerds (TBS)",
+      "year": "TV",
+      "thumbnailSrc": "/src/assets/legacy/alicebigger.jpg",
+      "description": "Brains, bravado, and a crown up for grabs. A group of lovable outsiders competes in high-energy challenges where strategy matters as much as personality. Alliances form, rivalries flare, and confidence gets forged in real time\u2014because being a nerd isn\u2019t a weakness\u2026 it\u2019s the edge.",
+      "link": "https://www.imdb.com/title/tt2401129/",
+      "link_text": "View on IMDb",
+      "streaming_links": [
+        {
+          "service": "PRIME",
+          "url": "https://www.amazon.com/King-Nerds-Season-1/dp/B00BMWAOK6"
+        },
+        {
+          "service": "PLEX",
+          "url": "https://watch.plex.tv/show/king-of-the-nerds/season/1"
+        },
+        {
+          "service": "APPLE_TV",
+          "url": "https://tv.apple.com/us/show/king-of-the-nerds/umc.cmc.4y3lij3gbjtu9mje7a1s373xq"
+        }
+      ],
+      "tmdbPosterPath": "/1edLqHEushuMeEBBldqdROYHZbe.jpg"
+    },
+    {
+      "title": "Take Me Out (FOX)",
+      "year": "TV",
+      "thumbnailSrc": "/src/assets/posters/take-me-out.png",
+      "description": "Lights up, hearts on the line. In this fast, flirty dating showdown, one contestant faces a wall of potential matches\u2014and one wrong move can cut the power. It\u2019s bold choices, instant chemistry, and big reactions, where confidence is currency and the spotlight never forgives.",
+      "link": "https://www.imdb.com/title/tt2207678/",
+      "link_text": "IMDb page"
+    }
+  ]
+}
